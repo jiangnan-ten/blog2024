@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>你好， VuePress ！</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/blog2024/assets/style-pBmjJHNx.css" as="style"><link rel="stylesheet" href="/blog2024/assets/style-pBmjJHNx.css">
+    <link rel="modulepreload" href="/blog2024/assets/app-0cR7Gtbu.js"><link rel="modulepreload" href="/blog2024/assets/404.html-GL5nsp0R.js"><link rel="modulepreload" href="/blog2024/assets/404.html-r6aI8Oiv.js">
+    <link rel="prefetch" href="/blog2024/assets/markdown.html-_BRFc7qb.js" as="script"><link rel="prefetch" href="/blog2024/assets/markdown.html-BBmLNaEU.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/blog2024/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/blog2024/assets/app-0cR7Gtbu.js" defer></script>
+  </body>
+</html>
