@@ -8,7 +8,7 @@ prev: false
 next: false
 ---
 
-# Nestjs (Duplicated 2024-01-11 00:14:55)
+# Nestjs
 
 ## Ioc 的一些概念
 
