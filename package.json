@@ -5,5 +5,9 @@
   },
   "devDependencies": {
     "vuepress": "^2.0.0-rc.0"
+  },
+  "peerDependencies": {
+    "@vuepress/client": "^2.0.0-rc.0",
+    "vue": "^3.4.7"
   }
 }
